@@ -20,28 +20,30 @@
 
     <header class="header">
         <div class="container header-container">
-            <a class="logo link" href=""><span class="web">Web</span><span class="studio">Studio</span></a>
+            <a class="logo link" href=""><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a>
             <nav>
                 <ul class="site-nav list">
-                    <li class="nav-item">
-                        <a class="link nav-link" href="./index.html">Студия</a>
+                    <li class="site-nav__item">
+                        <a class="site-nav__link link" href="./index.html">Студия</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="link current nav-link" href="./portfolio.html">Портфолио</a>
+                    <li class="site-nav__item">
+                        <a class="site-nav__link site-nav__link--current link" href="./portfolio.html">Портфолио</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="link nav-link" href="">Контакты</a>
+                    <li class="site-nav__item">
+                        <a class="site-nav__link link" href="">Контакты</a>
                     </li>
                 </ul>
             </nav>
             <ul class="auth-nav list">
-                <li class="auth-item">
-                    <a class="link auth-link" href="mailto:info@example.com"><svg class="nav-icon" width="16" height="12">
+                <li class="auth-nav__item">
+                    <a class="auth-nav__link link" href="mailto:info@example.com"><svg class="auth-nav__icon" width="16"
+                            height="12">
                             <use href="./images/icons-sprite.svg#envelope"></use>
                         </svg>info@example.com</a>
                 </li>
-                <li class="auth-item">
-                    <a class="link auth-link" href="tel:+380991111111"><svg class="nav-icon" width="16" height="12">
+                <li class="auth-nav__item">
+                    <a class="auth-nav__link link" href="tel:+380991111111"><svg class="auth-nav__icon" width="16"
+                            height="12">
                             <use href="./images/icons-sprite.svg#smartphone"></use>
                         </svg>+38 099 111 11 11</a>
                 </li>
@@ -192,8 +194,9 @@
 
     <footer class="footer">
         <div class="container">
+    
             <div class="footer-logo-block">
-                <a class="logo link" href=""><span class="web">Web</span><span class="studio">Studio</span></a>
+                <a class="logo link" href=""><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a>
                 <address>
                     <ul class="list">
                         <li class="footer-item"><a class="adress link" href="https://goo.gl/maps/JE5rAZ1mxu6CQXRe6"
@@ -208,6 +211,7 @@
                     </ul>
                 </address>
             </div>
+    
             <div class="footer-auth">
                 <p class="footer-join">Присоединяйтесь</p>
                 <ul class="footer-socials">
@@ -242,6 +246,18 @@
                 </ul>
     
             </div>
+    
+            <div class="footer-form">
+                <p class="footer-join">Подпишитесь на рассылку</p>
+                <form class="footer-form-list" novalidate>
+                    <input class="footer-input" type="email" name="footer-email" id="email" placeholder="E-mail">
+                    <button class="footer-form-btn" type="submit">Подписаться<svg class="icon-send" width="24" height="24">
+                            <use href="./images/icons-sprite-2.svg#icon-send"></use>
+                        </svg></button>
+    
+                </form>
+            </div>
+    
         </div>
     </footer>
 
