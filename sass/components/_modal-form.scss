@@ -132,7 +132,7 @@
     outline: none;
 
         .checkbox:checked + & {
-            background-image: url(/images/Icons/check.svg);
+            background-image: url(../../images/Icons/check.svg);
             background-size: contain;
             background-origin: border-box;
             border: transparent;
