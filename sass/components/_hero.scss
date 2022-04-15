@@ -1,5 +1,4 @@
-.hero,
-.footer {
+.hero {
     background-color: var(--black-bg-color);
 }
 
@@ -53,8 +52,8 @@
     background-color: var(--accent-text-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-      &:hover,
-      &:focus {
-        background-color: var(--main-btn-hover);
-      }   
+        &:hover,
+        &:focus {
+            background-color: var(--main-btn-hover);
+        }   
 }
