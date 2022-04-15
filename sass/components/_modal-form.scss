@@ -131,12 +131,19 @@
     margin-right: 7px;
     outline: none;
 
-        .checkbox:checked + & {
-            background-image: url("../images/Icons/check.svg");
-            background-size: contain;
-            background-origin: border-box;
-            border: transparent;
-        }
+        // .checkbox:checked + & {
+        //     background-image: url("../images/Icons/check.svg");
+        //     background-size: contain;
+        //     background-origin: border-box;
+        //     border: transparent;
+        // }
+}
+
+.checkbox:checked+.icon-checkbox {
+    background-image: url("../images/Icons/check.svg");
+    background-size: contain;
+    background-origin: border-box;
+    border: transparent;
 }
 
 .checkbox-text {
