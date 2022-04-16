@@ -854,7 +854,7 @@ ul {
 }
 
 .checkbox:checked + .icon-checkbox {
-  background-image: url('../images/check.svg');
+  background-image: url("../images/check.svg");
   background-size: contain;
   background-origin: border-box;
   border: transparent;
